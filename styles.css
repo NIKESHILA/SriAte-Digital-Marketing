@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Additional styles for the transparent button */
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #3e3e41;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* Background Image Styles */
+.bg-image {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px;
+}
+.logo-container {
+    max-width: 80px;
+}
+
+.logo {
+    width: 80%;
+    height: auto;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+//* Example CSS for Project Gallery with 6 Squares */
+
+#projects {
+    padding: 30px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-around; /* Center the projects in the available space */
+}
+
+.project {
+    width: 200px; /* Set a fixed width for each project */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.project img.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.team-member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width :100%;
+  
+   
+}
+
+#footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-links a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#user-experience button {
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Dropdown Styles */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
